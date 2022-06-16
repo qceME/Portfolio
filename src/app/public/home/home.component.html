@@ -1,1 +1,43 @@
-<h2>Este es el home, aunque para home la vida con Clau!</h2>
+<div class="background" [ngStyle]="styleBackground">
+    <span class="tag html">&lt;html&gt;</span> <br>
+    <span class="tag body">&lt;body&gt;</span>
+    <div class="description" [ngStyle]="styleDescription">
+        <span class="tag div">&lt;div class="high"&gt;</span>
+        <div class="thinkbox">
+            <div class="think">
+                <span>T</span><span>H</span><span>I</span><span>N</span><span>K</span><br>
+
+                <span>O</span><span>U</span><span>T</span><span>S</span><span>I</span><span>D</span><span>E</span><br>
+
+                <span>T</span><span>H</span><span>E</span>
+            </div>
+
+            <div class="box">
+                <span>B</span><span>O</span><span>X</span>
+            </div>
+
+        </div>
+
+        <div class="title" (click)="hover()" [ngStyle]="styleTitle" (mouseenter)="mouseEnter()"
+            (mouseleave)="mouseLeave()">
+
+            <span class='a' [ngStyle]="styleSpans">K</span>
+            <span [ngStyle]="styleSpans">A</span>
+            <span [ngStyle]="styleSpans">Z</span>
+            <span class="b" [ngStyle]="styleSpans">M</span>
+            <span [ngStyle]="styleSpans">O</span>
+            <span [ngStyle]="styleSpans">N</span>
+            <span class='a' [ngStyle]="styleSpans">E</span>
+
+        </div><br>
+        <span class="tag div">&lt;/div&gt;</span>
+
+
+
+        <p class="title-description"><img src="../../../assets/images/Nicolas_P._Rougier's_rendering_of_the_human_brain.png">
+        <p class="title-description"><img src="../../../assets/images/lenguajes-de-programación-Syntonize.jpeg">
+            <p class="title-description"><img src="../../../assets/images/bancos_gobierno_pueblo.jpeg">
+<!--             https://webdesign.tutsplus.com/es/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937
+ -->        </p>
+    </div>
+</div>
